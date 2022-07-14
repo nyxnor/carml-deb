@@ -6,7 +6,7 @@ Section: misc
 Priority: optional
 Maintainer: Patrick Schleizer <adrelanos@whonix.org>
 Build-Depends: debhelper (>= 13), debhelper-compat (= 13),
-Homepage: https://gitweb.torproject.org/torspec.git/tree/control-spec.txt
+Homepage: https://github.com/meejah/carml
 Vcs-Browser: https://github.com/nyxnor/carml-deb
 Vcs-Git: https://github.com/nyxnor/carml-deb.git
 Standards-Version: 4.5.1
@@ -16,7 +16,11 @@ Package: carml
 Architecture: all
 Depends: tor, python3-txtorcon, python3-twisted,
  python3-humanize, python3-click, python3-colors, ${misc:Depends}
-Recommends: python3-attr, python3-automat, python3-cffi, python3-constatnly, python3-criptography, python3-hyperlink, python3-idna, python3-incremental, python3-pyasn1, python3-pyasn1-modules, python3-pycparser, python3-openssl, python3-service-identity, python3-six, python3-typing-extensions, python3-zope.interface
+Recommends: python3-attr, python3-automat, python3-cffi, python3-constatnly,
+ python3-criptography, python3-hyperlink, python3-idna, python3-incremental,
+ python3-pyasn1, python3-pyasn1-modules, python3-pycparser, python3-openssl,
+ python3-service-identity, python3-six, python3-typing-extensions,
+ python3-zope.interface
 Description: carml is a command-line tool to query and control a running Tor
  Control tor with its control protocol to do amazing things.
  .

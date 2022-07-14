@@ -26,5 +26,6 @@ sudo dpkg-buildpackage -b --no-sign
 ### Install the package
 
 The package can be found in the parent folder. Install the package:
-
+```sh
 sudo dpkg -i ../carml_*.deb
+```
