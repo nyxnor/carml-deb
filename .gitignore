@@ -1,0 +1,10 @@
+usr/lib
+carml-git
+*-build-deps_*.buildinfo
+*-build-deps_*.changes
+debian/*.debhelper.log
+debian/*.substvars
+debian/.debhelper
+debian/files
+debian/debhelper-build-stamp
+debian/carml
